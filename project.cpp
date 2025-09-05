@@ -1,13 +1,9 @@
 #include<iostream>
 using namespace std;
-
-/// @brief 
-/// @return 
 int main()
 {
     const int n = 10;
     
-    //Draw Pattern given in description for n x n dimensions
     for(int i=0; i<n; i++)
     {
         for(int j=0; j<n; j++)
@@ -17,7 +13,6 @@ int main()
         cout<<endl;
     }
     cout<<endl;
-    //Draw Pattern given in description for n x n dimensions
     for(int i=0; i<n; i++)
     {
         for(int j = 0; j <=i; j++)
@@ -27,7 +22,6 @@ int main()
         cout<<endl;
     }
     cout<<endl;
-    //Draw Pattern given in description for n x n dimensions
     for(int i = 0; i<n; i++)
     {
         for(int j=0;j<i;j++)
@@ -41,7 +35,6 @@ int main()
         cout<<endl;
     }
     cout<<endl;
-    //Draw Pattern given in description for n x n dimensions
     for(int i=0;i<n;i++)
     {
         for(int j=0;j<n;j++)
@@ -54,7 +47,6 @@ int main()
         cout<<endl;
     }
     cout<<endl;
-    //Draw Pattern given in description for n x n dimensions
     for(int i = 0; i < n; i++)
     {
         for(int j = 0; j < n-i; j++)

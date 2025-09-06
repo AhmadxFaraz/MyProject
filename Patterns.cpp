@@ -4,15 +4,18 @@ int main()
 {
     const int n = 10;
     
+    //Aim: To print a n*n grid of #.
     for(int i=0; i<n; i++)
     {
         for(int j=0; j<n; j++)
         {
-            cout<<"* ";
+            cout<<"# ";
         }
         cout<<endl;
     }
     cout<<endl;
+
+    //Aim: To print a right angled triangle of base = height = n, with hypotenuse on right side.
     for(int i=0; i<n; i++)
     {
         for(int j = 0; j <=i; j++)
@@ -22,6 +25,8 @@ int main()
         cout<<endl;
     }
     cout<<endl;
+
+    //Aim: To print a reverse pyramid/Triangle.
     for(int i = 0; i<n; i++)
     {
         for(int j=0;j<i;j++)
